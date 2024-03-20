@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//sinh ống
 public class PipeSpawner : MonoBehaviour
 {
     [SerializeField] private float maxTime = 2f;
