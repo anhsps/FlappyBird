@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject gameOverCanvas;
 
+    [HideInInspector] public bool lose;
+
     private void Awake()
     {
         if (instance == null)
@@ -28,10 +30,26 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene("GamePlay");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit game");
+    }
+
     public void GameOver()
     {
-        gameOverCanvas.SetActive(true);
-        Time.timeScale = 0f;//đóng băng tg
+        if (gameOverCanvas != null)
+        {
+            gameOverCanvas.SetActive(true);
+            Time.timeScale = 0f;//đóng băng tg
+            lose = true;
+        }
     }
 
     public void Restart()

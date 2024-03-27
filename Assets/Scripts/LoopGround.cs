@@ -6,6 +6,7 @@ public class LoopGround : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
     [SerializeField] private float width = 6f;
+    [SerializeField] private bool loop = false;
     private SpriteRenderer sprite;
     private Vector2 startSize;
 
@@ -22,7 +23,7 @@ public class LoopGround : MonoBehaviour
     {
         sprite.size = new Vector2(sprite.size.x + speed * Time.deltaTime, sprite.size.y);
 
-        if (sprite.size.x > width)
+        if (loop && sprite.size.x > width)
         {
             sprite.size = startSize;
         }

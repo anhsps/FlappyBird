@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Điểm tăng ống
+//ống tăng điểm
 public class PipeIncreaseScore : MonoBehaviour
 {
     // Start is called before the first frame update
