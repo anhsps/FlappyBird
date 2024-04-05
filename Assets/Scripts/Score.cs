@@ -6,22 +6,22 @@ using System;
 
 public class Score : MonoBehaviour
 {
-    public static Score instance;
+    public static Score score;
 
     [SerializeField] private TextMeshProUGUI currentScore;
     [SerializeField] private TextMeshProUGUI highScore;
-    private int score;
+    private int scores;
 
     private void Awake()
     {
-        if (instance == null)
-            instance = this;
+        if (score == null)
+            score = this;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        currentScore.text = score.ToString();
+        currentScore.text = scores.ToString();
 
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
         UpdateHighScore();
@@ -35,17 +35,17 @@ public class Score : MonoBehaviour
 
     private void UpdateHighScore()
     {
-        if (score > PlayerPrefs.GetInt("HighScore"))
+        if (scores > PlayerPrefs.GetInt("HighScore"))
         {
-            PlayerPrefs.SetInt("HighScore", score);
-            highScore.text = score.ToString();
+            PlayerPrefs.SetInt("HighScore", scores);
+            highScore.text = scores.ToString();
         }
     }
 
     public void UpdateScore()
     {
-        score++;
-        currentScore.text = score.ToString();
+        scores++;
+        currentScore.text = scores.ToString();
         UpdateHighScore();
     }
 }

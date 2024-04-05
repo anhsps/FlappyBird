@@ -5,16 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager manager;
 
     [SerializeField] private GameObject gameOverCanvas;
-
-    [HideInInspector] public bool lose;
+    [SerializeField] private GameObject pauseButton;
 
     private void Awake()
     {
-        if (instance == null)
-            instance = this;
+        //check biến tĩnh manager đã dc khởi tạo chưa. đảm bảo chỉ có 1dtg GameManager duy nhất tồn tại trong app
+        if (manager == null)//nếu manager chưa dc khởi tạo(=null)
+            manager = this; //thì gán this_đối tượng htai của lớp này
         Time.timeScale = 1f;
     }
 
@@ -48,12 +48,24 @@ public class GameManager : MonoBehaviour
         {
             gameOverCanvas.SetActive(true);
             Time.timeScale = 0f;//đóng băng tg
-            lose = true;
         }
+        pauseButton.SetActive(false);
     }
 
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Pause()
+    {
+        Time.timeScale = 0f;
+        FlyBehavior.fly.enabled = false;
+    }
+
+    public void Continue()
+    {
+        Time.timeScale = 1f;
+        FlyBehavior.fly.enabled = true;
     }
 }

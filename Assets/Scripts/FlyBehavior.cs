@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+//using UnityEngine.InputSystem;
 
 public class FlyBehavior : MonoBehaviour
 {
+    public static FlyBehavior fly;
+
     Rigidbody2D rb;
     AudioSource audioSource;
     [SerializeField] private float velocitySpeed = 3f;//bay lên
@@ -15,6 +17,8 @@ public class FlyBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (fly == null)
+            fly = this;
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
     }
@@ -23,10 +27,21 @@ public class FlyBehavior : MonoBehaviour
     void Update()
     {
         //check nút trái chuột dc nhấn trog frame htai hay ko
-        if (Mouse.current.leftButton.wasPressedThisFrame && !GameManager.instance.lose)
+        if (UnityEngine.InputSystem.Mouse.current.leftButton.wasPressedThisFrame)
         {
             rb.velocity = Vector2.up * velocitySpeed;
             audioSource.PlayOneShot(wing_audio);
+        }
+
+        //cảm ứng dt
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)//check giai đoạn của cảm ứng có phải là bd hay k
+            {
+                rb.velocity = Vector2.up * velocitySpeed;
+                audioSource.PlayOneShot(wing_audio);
+            }
         }
     }
 
@@ -38,15 +53,16 @@ public class FlyBehavior : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameManager.instance.GameOver();
+        GameManager.manager.GameOver();
         audioSource.PlayOneShot(hit_audio);
+        this.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {//ống tăng điểm
         if (collision.gameObject.CompareTag("Pipe"))
         {
-            Score.instance.UpdateScore();
+            Score.score.UpdateScore();
             audioSource.PlayOneShot(point_audio);
         }
     }
