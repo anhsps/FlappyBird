@@ -26,22 +26,15 @@ public class FlyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //check nút trái chuột dc nhấn trog frame htai hay ko
-        if (UnityEngine.InputSystem.Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            rb.velocity = Vector2.up * velocitySpeed;
-            audioSource.PlayOneShot(wing_audio);
-        }
+        if (Input.GetMouseButtonDown(0))
+            ClickBird();
 
         //cảm ứng dt
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Began)//check giai đoạn của cảm ứng có phải là bd hay k
-            {
-                rb.velocity = Vector2.up * velocitySpeed;
-                audioSource.PlayOneShot(wing_audio);
-            }
+                ClickBird();
         }
     }
 
@@ -51,6 +44,11 @@ public class FlyBehavior : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, rb.velocity.y * rotationSpeed);
     }
 
+    void ClickBird()
+    {
+        rb.velocity = Vector2.up * velocitySpeed;
+        audioSource.PlayOneShot(wing_audio);
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameManager.manager.GameOver();
