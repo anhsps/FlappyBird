@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,15 +6,13 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager manager;
-
-    [SerializeField] private GameObject gameOverCanvas;
+    [SerializeField] private GameObject GameOverUI;
     [SerializeField] private GameObject pauseButton;
 
     private void Awake()
     {
-        //check biến tĩnh manager đã dc khởi tạo chưa. đảm bảo chỉ có 1dtg GameManager duy nhất tồn tại trong app
-        if (manager == null)//nếu manager chưa dc khởi tạo(=null)
-            manager = this; //thì gán this_đối tượng htai của lớp này
+        if (manager == null)
+            manager = this;
         Time.timeScale = 1f;
     }
 
@@ -33,28 +31,17 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        //SceneManager.LoadScene("GamePlay");
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void QuitGame()
     {
         Application.Quit();
         Debug.Log("Quit game");
-    }
-
-    public void GameOver()
-    {
-        if (gameOverCanvas != null)
-        {
-            gameOverCanvas.SetActive(true);
-            Time.timeScale = 0f;//đóng băng tg
-        }
-        pauseButton.SetActive(false);
-    }
-
-    public void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Pause()
@@ -67,5 +54,15 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         FlyBehavior.fly.enabled = true;
+    }
+
+    public void GameOver()
+    {
+        if (GameOverUI != null && pauseButton != null)
+        {
+            Time.timeScale = 0f;
+            GameOverUI.SetActive(true);
+            pauseButton.SetActive(false);
+        }
     }
 }

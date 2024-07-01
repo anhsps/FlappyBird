@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2828130549edaa343a0069eb7594ad39
+guid: e2bbd4127566b924597564fc4a3b7f13
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66f277c0c2998e54bbd98cfae8357c0a
-      internalID: -1260375005
+      spriteID: 200ef0e112c00c0409eb6c7a70d95157
+      internalID: 2119872420
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8172c60f4e84a6a4880de3e867f48f2f
-      internalID: -805328862
+      spriteID: d931fc226f7082846b833a8bd60101f9
+      internalID: -941495524
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a34256a765782e4087ea09296d6fc36
-      internalID: -1612671434
+      spriteID: e0dd01aadade4624888c3b4c249c9625
+      internalID: 1292703657
       vertices: []
       indices: 
       edges: []
@@ -187,50 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c3b1aee59a2c7849a5d8359431411b7
-      internalID: -579933396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_4
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 502
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48b332e5ff3e0cd44a8394e3de3670b9
-      internalID: 1477182338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_5
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 490
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 349ad27c4bb5fdf4d9069bae4140908f
-      internalID: 581477430
+      spriteID: 278d9c0c2d5bc494792c7bcb8d5a3519
+      internalID: 822320827
       vertices: []
       indices: 
       edges: []
@@ -250,29 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdd28088f033cba40b6061432f1fccac
-      internalID: -1832665454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_7
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 476
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 745e42b1428ce93499dc76edec4f8b28
-      internalID: 589187820
+      spriteID: b296e2c8f3dd7ad40b4a9bae257bca45
+      internalID: -1843909838
       vertices: []
       indices: 
       edges: []
@@ -292,29 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa98ef5a9db75d4da59786726cb9526
-      internalID: -698587498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_9
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 460
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26d8928fc576a694baee2dbb41362bac
-      internalID: -38864747
+      spriteID: ce5590fe61077744e87e9877eb1a84fe
+      internalID: -457399358
       vertices: []
       indices: 
       edges: []
@@ -334,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a098a035d6e49824fa66211f0714a209
-      internalID: -1435304468
+      spriteID: bdf660b0659f41f4386d021e6ad32cbd
+      internalID: -147607016
       vertices: []
       indices: 
       edges: []
@@ -355,29 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d1b293b26771864bbb56f43b8eb7f3c
-      internalID: 1591072566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_14
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 434
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ac900b6745838c4aad1211a551c8d37
-      internalID: -1672351583
+      spriteID: 6eb28176e72c7d848a9c2efd994772e0
+      internalID: 1554088001
       vertices: []
       indices: 
       edges: []
@@ -397,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65a2adaeea84bbe4a9fb8340ef5dd90e
-      internalID: 2057591388
+      spriteID: e9e63a066c6b1e746a1242235e103136
+      internalID: 87663819
       vertices: []
       indices: 
       edges: []
@@ -418,29 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c59cba2f9211645968d111276ce46d
-      internalID: -36448738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_18
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 173
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f6161c9dcd09214dbc2fb079ba142b3
-      internalID: 1743631917
+      spriteID: 3acbd6a0732bb8546b3631eb0e40ef99
+      internalID: 65311790
       vertices: []
       indices: 
       edges: []
@@ -460,8 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 287bd6f4b38212343ba5d1e4c04bb4da
-      internalID: 235976074
+      spriteID: 12dd7602057ab0e418d95f2740da1140
+      internalID: 393518204
       vertices: []
       indices: 
       edges: []
@@ -481,8 +355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5129191dcc8bfae4aa034ec709d82a6b
-      internalID: 1112967271
+      spriteID: 8fa76584a88ed0741ac2b490456579a7
+      internalID: -786901221
       vertices: []
       indices: 
       edges: []
@@ -502,8 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c49303429ba22f4d94eb7df534b2209
-      internalID: 1120470270
+      spriteID: 793beda271d22314caaea032e6da8e81
+      internalID: -1472175538
       vertices: []
       indices: 
       edges: []
@@ -523,260 +397,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62551d3d0fe88114191d53c882fce0f4
-      internalID: 117048963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_34
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 334
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc555fbfdcea1b6498ecd45208bedb95
-      internalID: 621866615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_35
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 334
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46ba8d13f9660de45b5a56c227570cf5
-      internalID: 1753047680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_36
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 334
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1048e509ce5129349baa385a62f9fb7d
-      internalID: -246141982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_37
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 334
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 515a8284b2a710e43b10dcec34b5aaaa
-      internalID: -279696882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_38
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 310
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68b4ea638f16693409fe92dc3e37d278
-      internalID: 1977364405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_39
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 310
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cecf16a53a80f8b4dbe35ce447a012c6
-      internalID: 607079778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_40
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 310
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 287c051d229d51541a919b72ac115572
-      internalID: 1314419951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_41
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 310
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53543ceb94d79e349a01fd2dd8e2f4b9
-      internalID: -227132176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_42
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 290
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69c20ba166970a1448ab594a9871e856
-      internalID: 1942078949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_43
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 296
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f16cdf8147c0ea4b86b44c6370794b5
-      internalID: -1365273913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_44
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 272
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 000512a445b32d84faa2712cc04df0a0
-      internalID: 2025037667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_45
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 260
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbd99879a6112d640bc0f8af3898df00
-      internalID: 1186373426
+      spriteID: 049da46ff2baeb94a885280ab75cea54
+      internalID: -519630738
       vertices: []
       indices: 
       edges: []
@@ -796,8 +418,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92df0b711addc3d46b21336d0b936be9
-      internalID: 1876048730
+      spriteID: 128959fa6a7cad447a421a811a4994b0
+      internalID: 1022762409
       vertices: []
       indices: 
       edges: []
@@ -817,8 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00079600c396204082849ea2218b528
-      internalID: -1265399778
+      spriteID: f2dc2fc616bfefe47aa9ebe9c8697d6d
+      internalID: 578333973
       vertices: []
       indices: 
       edges: []
@@ -838,8 +460,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7108bf45bdf3e43b63b825fe90f085
-      internalID: -1444506315
+      spriteID: 98284d7549d692f4a8b6a1cc6a024371
+      internalID: -139147491
       vertices: []
       indices: 
       edges: []
@@ -859,29 +481,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf477db43dd565f49932ac513918cd65
-      internalID: -2047039694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_50
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 196
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 091d3722c1bdcc84c8f203dd5a5184fd
-      internalID: -1991419211
+      spriteID: 726107fdc02737d44a7b1e79163ad1b0
+      internalID: -1977126782
       vertices: []
       indices: 
       edges: []
@@ -901,8 +502,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b860143c01e818b4daca3ac7e50ce714
-      internalID: 752686456
+      spriteID: d13caea83891da144bfccc3bd97c08c8
+      internalID: -1183467437
       vertices: []
       indices: 
       edges: []
@@ -922,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 087eaf642cd74834481d1d21a7071470
-      internalID: -2128367812
+      spriteID: bcd0cc767b639f34aab02d8d0a53611e
+      internalID: -344219222
       vertices: []
       indices: 
       edges: []
@@ -943,8 +544,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa308bb6812460146a7e27ecd23e616e
-      internalID: 737101032
+      spriteID: feda1113a3f7eb14aba6fa9b76a9a2fd
+      internalID: 1204977684
       vertices: []
       indices: 
       edges: []
@@ -964,8 +565,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8a52160b10ef84a9e9f794dd9d8b7d
-      internalID: 993038420
+      spriteID: fb5b62ac00f109849b4c2cd756a4f0ea
+      internalID: 416618675
       vertices: []
       indices: 
       edges: []
@@ -985,29 +586,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1f2ba29dd66b4d4a8a498991bec6194
-      internalID: 660005764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_56
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 182
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 977bc1e5f76f8a2498668811c7c40f46
-      internalID: 684148771
+      spriteID: 643aee048d0f2a44ea10e839e6362543
+      internalID: 1619238494
       vertices: []
       indices: 
       edges: []
@@ -1027,50 +607,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4e27a28030fe30408a472205d369589
-      internalID: 281877890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_58
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 156
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 378daca6f96a52d4888c15498f47ba88
-      internalID: 922500824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_59
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 147
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0497ee062e440444addcab3f1474297
-      internalID: -508066078
+      spriteID: 2bd10d7bdfdf8b043830a29969e09f66
+      internalID: 714702974
       vertices: []
       indices: 
       edges: []
@@ -1090,71 +628,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e54b8472894592a499862c4c42a4561d
-      internalID: 1407384439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_61
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 130
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80025d7f9a6befd4c96eaa0981b1306a
-      internalID: 80197637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_62
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 121
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6c321c25c02984498022cb6b36f793d
-      internalID: 1526738503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_63
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 114
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2e8ce545913f074dbcb806e311e7a57
-      internalID: 2101561844
+      spriteID: 65f02542985cd154cbcf0700bea6485b
+      internalID: 2060461440
       vertices: []
       indices: 
       edges: []
@@ -1174,50 +649,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9554169bc91a59e4f942c9ac2fc44a01
-      internalID: 1596673504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_65
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 104
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1de6bed926e1eab4d95df0912c1d2f06
-      internalID: -986029484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_66
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 95
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abfd2486e785c2e4ca3a419a4788bdbe
-      internalID: 276057092
+      spriteID: cdf3c2d94f0862b41bb6b0ba67767fa6
+      internalID: -1200763581
       vertices: []
       indices: 
       edges: []
@@ -1237,134 +670,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd425ccb7775884a85920e14cd509eb
-      internalID: 862347259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_68
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 78
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67f10983b314a104c8b929a3529877b9
-      internalID: -1977997556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_69
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 69
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b8bfd3acd398ea43843cf5c1f6bb3f0
-      internalID: -1307773138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_70
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 37
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8144790d7387fa4cb2b8d0a36c7a001
-      internalID: 451293364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_71
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 39
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b35a7ab3e701a5469f4fb46017704fc
-      internalID: 151635008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_72
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 13
-        width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e7f8bde3fa598e4cbd2f46c8ea1481a
-      internalID: -1134930777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_73
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 25
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe52ef67e7aba3142a011e43b25b7ffa
-      internalID: -688841228
+      spriteID: fe3fbac2aafad1c419884797dddad629
+      internalID: 477503433
       vertices: []
       indices: 
       edges: []
@@ -1384,8 +691,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13485d550b1ad6b49a277a89168b3a6d
-      internalID: 641668257
+      spriteID: b5bd9b7181ea78a47bdfb294a649de8f
+      internalID: -1173145578
       vertices: []
       indices: 
       edges: []
@@ -1405,8 +712,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11f5283884c62d94f844843398905f4e
-      internalID: 176196111
+      spriteID: 67265391e3f9e9643ae6e6286d340bbe
+      internalID: 268947537
       vertices: []
       indices: 
       edges: []
@@ -1426,8 +733,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0359f3dce0d0791489d833f25d08f29b
-      internalID: 1859634483
+      spriteID: d34aaec55e380944cbfae6348aa4fe94
+      internalID: 342365336
       vertices: []
       indices: 
       edges: []
@@ -1447,71 +754,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0548adc991065a4478c0a8ffb78ef6d3
-      internalID: 981525937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_78
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 13
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ac0c1829673aa2429f4ea85d251aa46
-      internalID: -1796695805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_79
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 4
-        width: 16
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d681dd1b69e1a9b4a8b5544f280a5c5e
-      internalID: 864751687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_80
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 1
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a48421e3e528bb743bbf98063960029e
-      internalID: 196066240
+      spriteID: a45cbbedb2c709845aeb1e68869b6849
+      internalID: 1659856728
       vertices: []
       indices: 
       edges: []
@@ -1525,14 +769,14 @@ TextureImporter:
         width: 52
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 068c151979a21b64992bb13e9bb30f1a
-      internalID: 1016910735
+      spriteID: 06840c3d2f76a2d419a399a449a8b472
+      internalID: -440060885
       vertices: []
       indices: 
       edges: []
@@ -1548,87 +792,87 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mobile - Flappy Bird - Version 12 Sprites_0: -1260375005
-      Mobile - Flappy Bird - Version 12 Sprites_1: -805328862
-      Mobile - Flappy Bird - Version 12 Sprites_11: -1435304468
-      Mobile - Flappy Bird - Version 12 Sprites_12: 1591072566
-      Mobile - Flappy Bird - Version 12 Sprites_13: -1920924679
-      Mobile - Flappy Bird - Version 12 Sprites_14: -1672351583
-      Mobile - Flappy Bird - Version 12 Sprites_15: -1279945424
-      Mobile - Flappy Bird - Version 12 Sprites_16: 2057591388
-      Mobile - Flappy Bird - Version 12 Sprites_17: -36448738
-      Mobile - Flappy Bird - Version 12 Sprites_18: 1743631917
-      Mobile - Flappy Bird - Version 12 Sprites_19: 1159694831
-      Mobile - Flappy Bird - Version 12 Sprites_2: -1612671434
-      Mobile - Flappy Bird - Version 12 Sprites_20: 743615483
-      Mobile - Flappy Bird - Version 12 Sprites_21: -436458324
-      Mobile - Flappy Bird - Version 12 Sprites_22: -857358041
-      Mobile - Flappy Bird - Version 12 Sprites_23: -1644215892
-      Mobile - Flappy Bird - Version 12 Sprites_24: 591762450
-      Mobile - Flappy Bird - Version 12 Sprites_25: -1277323134
-      Mobile - Flappy Bird - Version 12 Sprites_26: -873729542
-      Mobile - Flappy Bird - Version 12 Sprites_27: -1534462377
-      Mobile - Flappy Bird - Version 12 Sprites_28: 990832962
-      Mobile - Flappy Bird - Version 12 Sprites_29: -519821628
-      Mobile - Flappy Bird - Version 12 Sprites_3: -579933396
-      Mobile - Flappy Bird - Version 12 Sprites_30: 235976074
-      Mobile - Flappy Bird - Version 12 Sprites_31: 1112967271
-      Mobile - Flappy Bird - Version 12 Sprites_32: 1120470270
-      Mobile - Flappy Bird - Version 12 Sprites_33: 117048963
-      Mobile - Flappy Bird - Version 12 Sprites_34: 621866615
-      Mobile - Flappy Bird - Version 12 Sprites_35: 1753047680
-      Mobile - Flappy Bird - Version 12 Sprites_36: -246141982
-      Mobile - Flappy Bird - Version 12 Sprites_37: -279696882
-      Mobile - Flappy Bird - Version 12 Sprites_38: 1977364405
-      Mobile - Flappy Bird - Version 12 Sprites_39: 607079778
-      Mobile - Flappy Bird - Version 12 Sprites_4: 1477182338
-      Mobile - Flappy Bird - Version 12 Sprites_40: 1314419951
-      Mobile - Flappy Bird - Version 12 Sprites_41: -227132176
-      Mobile - Flappy Bird - Version 12 Sprites_42: 1942078949
-      Mobile - Flappy Bird - Version 12 Sprites_43: -1365273913
-      Mobile - Flappy Bird - Version 12 Sprites_44: 2025037667
-      Mobile - Flappy Bird - Version 12 Sprites_45: 1186373426
-      Mobile - Flappy Bird - Version 12 Sprites_46: 1876048730
-      Mobile - Flappy Bird - Version 12 Sprites_47: -1265399778
-      Mobile - Flappy Bird - Version 12 Sprites_48: -1444506315
-      Mobile - Flappy Bird - Version 12 Sprites_49: -2047039694
-      Mobile - Flappy Bird - Version 12 Sprites_5: 581477430
-      Mobile - Flappy Bird - Version 12 Sprites_50: -1991419211
-      Mobile - Flappy Bird - Version 12 Sprites_51: 752686456
-      Mobile - Flappy Bird - Version 12 Sprites_52: -2128367812
-      Mobile - Flappy Bird - Version 12 Sprites_53: 737101032
-      Mobile - Flappy Bird - Version 12 Sprites_54: 993038420
-      Mobile - Flappy Bird - Version 12 Sprites_55: 660005764
-      Mobile - Flappy Bird - Version 12 Sprites_56: 684148771
-      Mobile - Flappy Bird - Version 12 Sprites_57: 281877890
-      Mobile - Flappy Bird - Version 12 Sprites_58: 922500824
-      Mobile - Flappy Bird - Version 12 Sprites_59: -508066078
-      Mobile - Flappy Bird - Version 12 Sprites_6: -1832665454
-      Mobile - Flappy Bird - Version 12 Sprites_60: 1407384439
-      Mobile - Flappy Bird - Version 12 Sprites_61: 80197637
-      Mobile - Flappy Bird - Version 12 Sprites_62: 1526738503
-      Mobile - Flappy Bird - Version 12 Sprites_63: 2101561844
-      Mobile - Flappy Bird - Version 12 Sprites_64: 1596673504
-      Mobile - Flappy Bird - Version 12 Sprites_65: -986029484
-      Mobile - Flappy Bird - Version 12 Sprites_66: 276057092
-      Mobile - Flappy Bird - Version 12 Sprites_67: 862347259
-      Mobile - Flappy Bird - Version 12 Sprites_68: -1977997556
-      Mobile - Flappy Bird - Version 12 Sprites_69: -1307773138
-      Mobile - Flappy Bird - Version 12 Sprites_7: 589187820
-      Mobile - Flappy Bird - Version 12 Sprites_70: 451293364
-      Mobile - Flappy Bird - Version 12 Sprites_71: 151635008
-      Mobile - Flappy Bird - Version 12 Sprites_72: -1134930777
-      Mobile - Flappy Bird - Version 12 Sprites_73: -688841228
-      Mobile - Flappy Bird - Version 12 Sprites_74: 641668257
-      Mobile - Flappy Bird - Version 12 Sprites_75: 176196111
-      Mobile - Flappy Bird - Version 12 Sprites_76: 1859634483
-      Mobile - Flappy Bird - Version 12 Sprites_77: 981525937
-      Mobile - Flappy Bird - Version 12 Sprites_78: -1796695805
-      Mobile - Flappy Bird - Version 12 Sprites_79: 864751687
-      Mobile - Flappy Bird - Version 12 Sprites_8: -698587498
-      Mobile - Flappy Bird - Version 12 Sprites_80: 196066240
-      Mobile - Flappy Bird - Version 12 Sprites_9: -38864747
-      x: 1016910735
+      Mobile - Flappy Bird - Version 12 Sprites_0: 2119872420
+      Mobile - Flappy Bird - Version 12 Sprites_1: -941495524
+      Mobile - Flappy Bird - Version 12 Sprites_10: -547073947
+      Mobile - Flappy Bird - Version 12 Sprites_11: -147607016
+      Mobile - Flappy Bird - Version 12 Sprites_12: 1554088001
+      Mobile - Flappy Bird - Version 12 Sprites_13: 1865053323
+      Mobile - Flappy Bird - Version 12 Sprites_14: -422274027
+      Mobile - Flappy Bird - Version 12 Sprites_15: 985382676
+      Mobile - Flappy Bird - Version 12 Sprites_16: 87663819
+      Mobile - Flappy Bird - Version 12 Sprites_17: 65311790
+      Mobile - Flappy Bird - Version 12 Sprites_18: -1276337507
+      Mobile - Flappy Bird - Version 12 Sprites_19: 632390650
+      Mobile - Flappy Bird - Version 12 Sprites_2: 1292703657
+      Mobile - Flappy Bird - Version 12 Sprites_20: 1539475751
+      Mobile - Flappy Bird - Version 12 Sprites_21: -1938093758
+      Mobile - Flappy Bird - Version 12 Sprites_22: -1351115056
+      Mobile - Flappy Bird - Version 12 Sprites_23: 611408629
+      Mobile - Flappy Bird - Version 12 Sprites_24: 434922036
+      Mobile - Flappy Bird - Version 12 Sprites_25: -744897254
+      Mobile - Flappy Bird - Version 12 Sprites_26: 1504708602
+      Mobile - Flappy Bird - Version 12 Sprites_27: 1275547651
+      Mobile - Flappy Bird - Version 12 Sprites_28: -2008884804
+      Mobile - Flappy Bird - Version 12 Sprites_29: 1944429659
+      Mobile - Flappy Bird - Version 12 Sprites_3: 822320827
+      Mobile - Flappy Bird - Version 12 Sprites_30: 393518204
+      Mobile - Flappy Bird - Version 12 Sprites_31: -786901221
+      Mobile - Flappy Bird - Version 12 Sprites_32: -1472175538
+      Mobile - Flappy Bird - Version 12 Sprites_33: -519630738
+      Mobile - Flappy Bird - Version 12 Sprites_34: 1333242217
+      Mobile - Flappy Bird - Version 12 Sprites_35: 1313193363
+      Mobile - Flappy Bird - Version 12 Sprites_36: -60237242
+      Mobile - Flappy Bird - Version 12 Sprites_37: -823325296
+      Mobile - Flappy Bird - Version 12 Sprites_38: -1280667524
+      Mobile - Flappy Bird - Version 12 Sprites_39: -1790565141
+      Mobile - Flappy Bird - Version 12 Sprites_40: -1751174315
+      Mobile - Flappy Bird - Version 12 Sprites_41: -452849265
+      Mobile - Flappy Bird - Version 12 Sprites_42: -1786507093
+      Mobile - Flappy Bird - Version 12 Sprites_43: -2096649121
+      Mobile - Flappy Bird - Version 12 Sprites_44: -1233849610
+      Mobile - Flappy Bird - Version 12 Sprites_45: -1087180291
+      Mobile - Flappy Bird - Version 12 Sprites_46: 1022762409
+      Mobile - Flappy Bird - Version 12 Sprites_47: 578333973
+      Mobile - Flappy Bird - Version 12 Sprites_48: -139147491
+      Mobile - Flappy Bird - Version 12 Sprites_49: -1977126782
+      Mobile - Flappy Bird - Version 12 Sprites_5: -841599493
+      Mobile - Flappy Bird - Version 12 Sprites_50: -513302144
+      Mobile - Flappy Bird - Version 12 Sprites_51: -1183467437
+      Mobile - Flappy Bird - Version 12 Sprites_52: -344219222
+      Mobile - Flappy Bird - Version 12 Sprites_53: 1204977684
+      Mobile - Flappy Bird - Version 12 Sprites_54: 416618675
+      Mobile - Flappy Bird - Version 12 Sprites_55: 1619238494
+      Mobile - Flappy Bird - Version 12 Sprites_56: -581665977
+      Mobile - Flappy Bird - Version 12 Sprites_57: 714702974
+      Mobile - Flappy Bird - Version 12 Sprites_58: -458369892
+      Mobile - Flappy Bird - Version 12 Sprites_59: 1719931373
+      Mobile - Flappy Bird - Version 12 Sprites_6: -1843909838
+      Mobile - Flappy Bird - Version 12 Sprites_60: 2060461440
+      Mobile - Flappy Bird - Version 12 Sprites_61: -1761279503
+      Mobile - Flappy Bird - Version 12 Sprites_62: 856634861
+      Mobile - Flappy Bird - Version 12 Sprites_63: 324201287
+      Mobile - Flappy Bird - Version 12 Sprites_64: -1200763581
+      Mobile - Flappy Bird - Version 12 Sprites_65: -1339911127
+      Mobile - Flappy Bird - Version 12 Sprites_66: -55834450
+      Mobile - Flappy Bird - Version 12 Sprites_67: 477503433
+      Mobile - Flappy Bird - Version 12 Sprites_68: -981167954
+      Mobile - Flappy Bird - Version 12 Sprites_69: -709674270
+      Mobile - Flappy Bird - Version 12 Sprites_7: 793168676
+      Mobile - Flappy Bird - Version 12 Sprites_70: 10467384
+      Mobile - Flappy Bird - Version 12 Sprites_71: -1579404525
+      Mobile - Flappy Bird - Version 12 Sprites_72: 434866541
+      Mobile - Flappy Bird - Version 12 Sprites_73: 332784014
+      Mobile - Flappy Bird - Version 12 Sprites_74: -1173145578
+      Mobile - Flappy Bird - Version 12 Sprites_75: 268947537
+      Mobile - Flappy Bird - Version 12 Sprites_76: 342365336
+      Mobile - Flappy Bird - Version 12 Sprites_77: 1659856728
+      Mobile - Flappy Bird - Version 12 Sprites_78: -1693773821
+      Mobile - Flappy Bird - Version 12 Sprites_79: 478232725
+      Mobile - Flappy Bird - Version 12 Sprites_8: -457399358
+      Mobile - Flappy Bird - Version 12 Sprites_80: -979081913
+      Mobile - Flappy Bird - Version 12 Sprites_9: -1551349743
+      x: 1529369345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
