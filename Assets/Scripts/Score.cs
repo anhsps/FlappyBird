@@ -5,15 +5,17 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    public static Score score;
+    public static Score instance { get; private set; }
 
     [SerializeField] private TextMeshProUGUI currentScore, highScore;
     private int scores;
 
     private void Awake()
     {
-        if (score == null)
-            score = this;
+        if (instance != null && instance != this)
+            Destroy(this);
+        else
+            instance = this;
     }
 
     // Start is called before the first frame update

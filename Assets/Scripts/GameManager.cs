@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager manager;
+    public static GameManager instance { get; private set; }
+
     [SerializeField] private GameObject GameOverUI;
-    [SerializeField] private GameObject pauseButton;
 
     private void Awake()
     {
-        if (manager == null)
-            manager = this;
+        if (instance != null && instance != this)
+            Destroy(this);
+        else
+            instance = this;
+
         Time.timeScale = 1f;
     }
 
@@ -47,22 +50,21 @@ public class GameManager : MonoBehaviour
     public void Pause()
     {
         Time.timeScale = 0f;
-        FlyBehavior.fly.enabled = false;
+        FlyBehavior.instance.enabled = false;
     }
 
     public void Continue()
     {
         Time.timeScale = 1f;
-        FlyBehavior.fly.enabled = true;
+        FlyBehavior.instance.enabled = true;
     }
 
     public void GameOver()
     {
-        if (GameOverUI != null && pauseButton != null)
+        if (GameOverUI != null)
         {
             Time.timeScale = 0f;
             GameOverUI.SetActive(true);
-            pauseButton.SetActive(false);
         }
     }
 }

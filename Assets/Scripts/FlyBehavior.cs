@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class FlyBehavior : MonoBehaviour
 {
-    public static FlyBehavior fly;
+    public static FlyBehavior instance { get; private set; }
 
     Rigidbody2D rb;
     AudioSource audioSource;
     [SerializeField] private float velocitySpeed = 3f, rotationSpeed = 10f;
     [SerializeField] private AudioClip wing_audio, hit_audio, point_audio;
 
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+            Destroy(this);
+        else
+            instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        if (fly == null)
-            fly = this;
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
     }
@@ -48,7 +54,7 @@ public class FlyBehavior : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameManager.manager.GameOver();
+        GameManager.instance.GameOver();
         audioSource.PlayOneShot(hit_audio);
         this.enabled = false;
     }
@@ -57,7 +63,7 @@ public class FlyBehavior : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pipe"))
         {
-            Score.score.UpdateScore();
+            Score.instance.UpdateScore();
             audioSource.PlayOneShot(point_audio);
         }
     }
