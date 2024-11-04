@@ -1,0 +1,4 @@
+PlayGame
+Main Camera: 4
+Scale with screen size: 1280 x 720
+Match: 0.5
